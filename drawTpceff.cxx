@@ -29,7 +29,7 @@ TH1D* histo(char *name, Double_t xlow, Double_t xup, Double_t ylow, Double_t yup
 	return dd;
 }
 void drawTpceff()
-{
+{7
 	TLatex tx;
 	tx.SetTextSize(0.05);
 	tx.SetNDC();
